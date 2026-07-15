@@ -1,0 +1,9 @@
+{
+  "name": "lopes-html",
+  "description": "Design system da Lopes Digital para toda entrega visual em HTML/React — páginas, dashboards, apps e relatórios. Temas por empresa/cliente, modo claro/escuro, mobile-first e shadcn.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Lopes Digital",
+    "email": "josevitor@lopes.digital"
+  }
+}
