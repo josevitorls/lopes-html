@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Marketplace interno da Lopes Digital — design system e padrões de entrega HTML/React",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "lopes-html",
       "source": "./plugins/lopes-html",
       "description": "Design system Lopes/DZB para entregas HTML standalone: temas por empresa e cliente, modo claro/escuro obrigatório, mobile-first (piso 375px) e componentes no padrão shadcn/new-york",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": { "name": "Lopes Digital" },
       "keywords": ["design-system", "html", "dashboard", "shadcn", "lopes", "dzb"]
     }
