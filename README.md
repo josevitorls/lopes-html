@@ -21,21 +21,54 @@ Toda entrega HTML/React do Claude passa a sair, automaticamente:
 
 ## Instalação (uma vez por pessoa)
 
-### No Claude Desktop / Cowork
+> **Antes de começar:** você precisa de um plano pago do Claude (Pro, Max,
+> Team ou Enterprise). Não precisa de conta GitHub, não precisa instalar
+> nada no computador. Leva uns 2 minutos.
 
-1. Abra **Configurações → Capabilities** (Recursos)
-2. Em plugins/marketplaces, adicione: `SEU-USUARIO-GITHUB/lopes-html`
-3. Instale o plugin **lopes-html**
+### 🟢 Passo a passo para quem usa o chat ou o Cowork
 
-### No Claude Code (terminal)
+Funciona igual no **claude.ai (navegador)**, no **app Claude Desktop (aba
+Chat)** e no **Cowork**. Se estiver no Desktop e usar o Cowork, entre na aba
+**Cowork** antes de seguir os passos.
+
+**Parte 1 — adicionar o catálogo da Lopes (só na primeira vez):**
+
+1. Abra o Claude e olhe a **barra lateral esquerda**
+2. Clique no menu **Personalizar** (*Customize*) — é onde ficam plugins,
+   skills e conectores
+3. Entre na aba **Plugins**
+4. Na seção **Plugins pessoais** (*Personal plugins*), clique no botão **"+"**
+   e escolha **"Adicionar marketplace"** (*Add marketplace*)
+5. Escolha **"Adicionar de um repositório"** (*Add from a repository*) e cole:
+
+   ```
+   https://github.com/josevitorls/lopes-html
+   ```
+
+6. Confirme. O catálogo "lopes-html" aparece na sua lista
+
+**Parte 2 — instalar o plugin:**
+
+7. Ainda na aba **Plugins**, clique em **"Explorar plugins"** (*Browse
+   plugins*), encontre o **lopes-html** e clique em **"Instalar"**
+
+**Pronto. Para conferir se funcionou:** em qualquer conversa, digite `/` na
+caixa de mensagem — a skill **lopes-html** deve aparecer na lista.
+
+**Para usar:** não precisa fazer nada especial. Peça normalmente ("faça um
+dashboard de captação para a DZB") e o Claude aplica o design system sozinho.
+A tabela [Como usar](#como-usar) abaixo tem exemplos de pedidos.
+
+**Quando o José avisar que tem novidade** (tema novo, ajuste de marca): volte
+em **Personalizar → Plugins**, abra o marketplace lopes-html e atualize. Nada
+para baixar, nada para configurar de novo.
+
+### 🛠️ No Claude Code (terminal — para quem programa)
 
 ```
-/plugin marketplace add SEU-USUARIO-GITHUB/lopes-html
+/plugin marketplace add josevitorls/lopes-html
 /plugin install lopes-html@lopes-html
 ```
-
-> Repo privado? Você precisa de conta GitHub com acesso a este repositório e
-> git autenticado na máquina (`gh auth login`).
 
 ## Como usar
 
